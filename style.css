@@ -1,0 +1,460 @@
+body
+{
+    background-color: #f5f5f5;
+  
+}
+.navc
+{
+    background-color:rgba(25, 25,55, 0.2) ;
+}
+.navbar-dark .navbar-brand 
+{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding: 0 15px;
+}
+
+.header
+{
+    background-image: url(images/intro-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .title
+{
+    
+    color: #fff;
+     font-size: 5rem;
+     text-align: center;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(37, 35, 35, 0.342);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .title h1
+{
+    color: #fff;
+    font-size: 5rem;
+    position: relative;
+}
+.header .title h2::after
+{
+    content: "";
+    position: absolute;
+   animation-name: type;
+   animation-duration:8s;
+   animation-iteration-count: infinite;
+
+}
+@keyframes type{
+  0%{content:" WebDe|";}
+ 20%{content:" WebDesinger|";}
+ 25%{content:" |";}
+  26%{content:" Fronte|";}
+  45%  {content:" Frontend|";}
+    65%{content:" Frontend Developer|";}
+    76%{content:" |";}
+    100%{content:" CEO Devfolio|";}
+}
+
+.title-s {
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+}
+.aboutme
+{
+    padding: 3rem 0;
+}
+.aboutme .ba h5
+{
+    position: relative;
+
+padding-bottom: 20px; 
+font-size: 2rem;   
+}
+.ba h5::after 
+{
+    content: "";
+    position: absolute;
+    width: 19%;
+    height: 5px;
+    background-color: blue;
+    top:40px;
+    left: 0;
+    
+}
+.shadow
+{
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    
+    padding: 5rem ;
+}
+
+.parent
+{
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.parent .ico
+{
+    
+    padding: 20px 0;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+
+    box-shadow: 0 0 0 10px blue;
+    border-radius: 50%;
+    transition: all 2s ease;
+    
+}
+.parent .ico .ic 
+{
+    width: 100px;;
+    height: 100px;
+}
+.parent .content
+{
+    margin-top: 20px;
+   
+}
+.parent:hover .ico
+{
+   background-color: #0078ff;
+   color:white;
+   box-shadow: 0 0 0 10px rgba(25, 25,55, 0.3);
+
+}
+
+
+.counter
+{
+    background-image: url(images/counters-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.par1
+{
+    text-align: center;
+  
+    padding: 50px 0;
+}
+.par1 .conn
+{
+
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    line-height: 1.8;
+    box-shadow: 0 0 0 10px #cde1f8;
+    border-radius: 50%;
+    padding: 10px 0;
+    color: white;
+}
+.par1 .conn2
+{
+    
+    padding-top: 20px;
+    color: white;
+    
+}
+.par1 .conn2 p 
+{
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+
+.over
+{
+    width: 100%;
+    position: relative;
+    background-color: blue;
+    z-index: 55;
+    opacity: 0.6;
+}
+
+.pro h2  
+{
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.sertitl h2
+{
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.line-mf  {
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+
+}
+.w-title h2{
+    font-size: 1.2rem;
+}
+.w-ctegory {
+    color: #0078ff;
+}
+.baba-img
+{
+    background-color: white;
+    box-shadow:  0 13px 8px -10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.baba-img img
+{
+    transition: all 1s ease;
+    
+}
+.baba-p
+{padding: 2rem 3% 1rem 4%
+}
+.baba-img:hover img
+{
+    transform: scale(1.1);
+}
+.author {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 1rem 0;
+    display: block;
+    font-size: 1.4rem;
+}
+.c-img img
+{
+    border-radius:50%;
+}
+.comit {
+    font-size: 2rem;
+    color: #0078ff;
+    background-color: #fff;
+    width: 52px;
+    height: 52px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 10px 0;
+}
+.carusol
+{
+    background-image: url(images/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.over2
+{
+    width: 100%;
+    position: relative;
+    background-color: rgba(39, 27, 206, 0.342);
+    z-index: 55;
+    
+}
+.card-parent
+{
+    
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+ .card-body {
+    position: relative;
+}
+.card-category-box {
+    position: absolute;
+    text-align: center;
+    top: -16px;
+    left: 15px;
+    right: 15px;
+    line-height: 25px;
+    overflow: hidden;
+}
+.card-category {
+    display: inline-block;
+    color: #fff;
+    padding: 0 15px 5px;
+    overflow: hidden;
+    background-color: #0078ff;
+    border-radius: 4px;
+}
+.card h6
+{
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: .7rem;
+    letter-spacing: .1px;
+    margin-bottom: 0;
+}
+.card-title {
+    font-size: 1.3rem;
+    margin-top: .6rem;
+    margin-bottom: 0.75rem;
+}
+
+a
+{
+    color: #1e1e1e;
+    transition: all 0.5s ease-in-out;
+    text-decoration:none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+.card-footer {
+    padding: .75rem 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+.avatar {
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+    overflow: hidden;
+}
+.title-left
+{
+    font-size: 2rem;
+    position: relative;
+}
+.title-left::before
+{
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+
+}
+.button-rounded
+{
+    border-radius:5rem ;
+    padding: 15px 30px;
+}
+.more-info p
+{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.more-info ul
+{
+    list-style:none;
+    text-align: left;
+}
+.ico-circle
+{
+
+    box-shadow: 0 0 0 1px blue;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0 5px 0 0;
+    text-align: center;
+    line-height: 1.5rem;
+    padding-top: 15;
+    display: inline-block;
+}
+.ico-circle:hover
+{
+    box-shadow: 0 0 0 4px rgb(116, 116, 233);
+    color: white;
+    background-color: blue;
+}
+.overlay2{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(53, 65, 241, 0.342);
+        
+    }
+.footer
+{
+    background-image: url(images/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-dark
+{
+    background-color: rgba(37, 35, 35, 0.342);
+    padding: 100px 100px;
+    transition: all 1s;
+}
+.slideup
+{
+    position: fixed;
+    right:10px;
+    bottom: 50px;
+    color: black;
+    padding: 10px;
+    background-color: white;
+    z-index: 100;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+#option-container
+{
+    position: fixed;
+    z-index: 99999999999;
+    left: 0;
+    top: 200px;
+    display: flex;
+    
+}
+#option-box
+{
+    background-color: white;
+    padding: 10px;
+    border: solid 2px black;
+}
+#option-box span
+{
+    width: 30px;
+    height:30px;
+    background-color: teal;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0.5px solid black
+}
+#option-container i
+{
+   background-color: black;
+   color: white;
+  padding: 5px;
+  cursor: pointer;
+}
